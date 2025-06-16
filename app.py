@@ -13,11 +13,11 @@ st.title("Prediksi Kategori Cuaca 🌦️ Berbasis ANN")
 st.markdown("Masukkan parameter cuaca berikut:")
 
 # Input form
-DDD_CAR = st.number_input('DDD_CAR (Derajat angin terbanyak)', min_value=0.0, max_value=360.0, value=90.0)
-TX = st.number_input('TX (Suhu maksimum)', min_value=20.0, max_value=50.0, value=32.0)
-DDD_X = st.number_input('DDD_X (Arah angin maksimum)', min_value=0.0, max_value=360.0, value=180.0)
+DDD_CAR = st.number_input('DDD_CAR (Arah angin terbanyak)', min_value=0.0, max_value=360.0, value=90.0)
+TX = st.number_input('TX (Temperatur maksimum)', min_value=20.0, max_value=50.0, value=32.0)
+DDD_X = st.number_input('DDD_X (Arah angin saat kecepatan maksimum)', min_value=0.0, max_value=360.0, value=180.0)
 RH_AVG = st.number_input('RH_AVG (Kelembaban rata-rata)', min_value=0.0, max_value=100.0, value=80.0)
-TAVG = st.number_input('TAVG (Suhu rata-rata)', min_value=20.0, max_value=40.0, value=28.0)
+TAVG = st.number_input('TAVG (Temperatur rata-rata)', min_value=20.0, max_value=40.0, value=28.0)
 FF_AVG = st.number_input('FF_AVG (Kecepatan angin rata-rata)', min_value=0.0, max_value=15.0, value=5.0)
 
 # Prediksi saat tombol ditekan
