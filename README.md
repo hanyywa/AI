@@ -1,6 +1,8 @@
 # Tugas Akhir AI – Kelompok 8
 
-Repositori ini berisi hasil proyek Tugas Akhir mata kuliah Kecerdasan Buatan.
+Repositori ini berisi hasil proyek Tugas Akhir mata kuliah Kecerdasan Buatan dengan judul:
+
+**"Prediksi Cuaca Harian Berbasis Algoritma Artificial Neural Network (ANN) di Kota Semarang"**
 
 ## Anggota Kelompok
 
